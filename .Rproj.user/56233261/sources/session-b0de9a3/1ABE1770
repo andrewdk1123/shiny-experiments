@@ -1,0 +1,26 @@
+{
+    "id": "1ABE1770",
+    "path": "C:/shiny-experiments/shiny-experiments/server.R",
+    "project_path": "shiny-experiments/server.R",
+    "type": "r_source",
+    "hash": "2177632170",
+    "contents": "",
+    "dirty": false,
+    "created": 1701940178573.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "28,0",
+        "scrollLine": "5"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1701940219,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1701940219288,
+    "read_only": false,
+    "read_only_alternatives": []
+}
