@@ -15,7 +15,16 @@ ui <- dashboardPage(
   ),
   dashboardSidebar(
     sidebarMenu(
-      menuItem("Upload Data", tabName = "upload", icon = icon("upload"))
+      menuItem("Upload Data", tabName = "upload", icon = icon("upload")),
+      menuItem("Data Manipulation", tabName = "manipulate", icon = icon("table"),
+               menuSubItem("Sub Item 1", tabName = "subitem1"),
+               menuSubItem("Sub Item 2", tabName = "subitem2")),
+      menuItem("Data Visualization", tabName = "visualize", icon = icon("chart-pie"),
+               menuSubItem("Sub Item 1", tabName = "subitem3"),
+               menuSubItem("Sub Item 2", tabName = "subitem4")),
+      menuItem("Data Analysis", tabName = "analyze", icon = icon("calculator"),
+               menuSubItem("Sub Item 1", tabName = "subitem5"),
+               menuSubItem("Sub Item 2", tabName = "subitem6"))
     )
   ),
   dashboardBody(
